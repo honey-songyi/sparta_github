@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+    <title>Aesop Shop</title>
+
+    <style>
+        /* 백그라운드 컬러를 지정하고 싶은데 지정이 안돼요 ㅠㅠ */
+        /* * {
+            background-color: antiquewhite
+        } */
+
+        * {
+            font-family: 'Nanum Myeongjo', serif;
+        }
+
+        .wrap {
+            width: 600px;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+
+        .product-name {
+            margin: 70px auto auto auto;
+            text-align: center;
+        }
+
+        .product-image {
+            margin-top: 30px;
+            background-image: url('https://gearpatrol.com/wp-content/uploads/2018/04/Aesop-In-Two-Minds-gear-patrol-full-lead.jpg');
+            background-position: bottom;
+            background-size: cover;
+            width: 600px;
+            height: 300px;
+        }
+
+        .product-info {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .sub-text {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: left;
+            color: gray
+        }
+
+        .product-order {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .card {
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">홈</a></li>
+            <li class="breadcrumb-item"><a href="#">핸드케어</a></li>
+            <li class="breadcrumb-item active" aria-current="page">핸드워시 3종</li>
+        </ol>
+    </nav>
+
+    <div class="wrap">
+
+        <!-- 상품 이름 -->
+        <div class="product-name">
+            <h5><span class="badge badge-secondary">New</span></h5>
+            <h1>Aesop 핸드워시 3종</h1>
+        </div>
+
+        <!-- 상품 상단 이미지 -->
+        <div class="product-image">
+        </div>
+
+        <!-- 상품 설명 -->
+        <div class=" product-info">
+            <h5>핸드워시 3종</h5>
+            <h5>가격:43,000원/개</h5>
+            <p class="sub-text">강력한 세정 효과에도 촉촉한 보습감을 선사하는 Aesop 핸드워시는 높은 함량의 비타민 B, C, E, F를 함유하고 있습니다. Aesop만의 상쾌하고
+                매혹적인 향으로 기분 좋은 손 세정을 시작하세요.</p>
+        </div>
+
+        <!-- 사용자 입력필드 -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">주문자 이름</span>
+            </div>
+            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">주문 수량</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>-</option>
+                <option value="1">1개</option>
+                <option value="2">2개</option>
+                <option value="3">3개</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">주소</span>
+            </div>
+            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">전화 번호</span>
+            </div>
+            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+        </div>
+
+        <!-- 장바구니/구매 버튼 -->
+        <div class="product-order">
+            <button type="button" class="btn btn-dark">장바구니</button>
+            <button type="button" class="btn btn-dark">주문하기</button>
+        </div>
+
+        <!-- 상품 더 보기 -->
+        <div class="card" style="width: 18rem; float: left;">
+            <img class="card-img-top" src="https://s1.thcdn.com/productimg/1600/1600/12154064-1754677879640869.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5><a href="" class="card-title">세안 제품</a></h5>
+                <p class="card-text">미세먼지도 깔끔하게 세정해줄 세안 제품을 만나보세요.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem; float: right;">
+            <img class="card-img-top"
+                src="https://gd.image-gmkt.com/li/357/896/757896357.g_0-w_g.jpghttps://gd.image-gmkt.com/li/357/896/757896357.g_0-w_g.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5><a href="" class="card-title">핸드 제품</a></h5>
+                <p class="card-text">건조한 손을 촉촉하게 보습해줄 핸드 제품을 둘러보세요.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
